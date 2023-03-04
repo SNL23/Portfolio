@@ -1,0 +1,53 @@
+body {
+    
+}
+
+Header{
+    background-color: #31343d;
+    text-align: start;
+    color: #92ccce;
+}
+
+nav {
+    text-align: end;
+}
+
+nav a{
+    color:#92ccce;
+    text-decoration:underline;
+
+}
+
+img {
+    width:100%;
+    height: 450px;
+}
+
+.sub{
+    background-color: #92ccce;
+}
+
+p{
+    text-align: end;
+}
+
+.surf,.led,.pastel,.cal,.run{
+    text-align: right;
+}
+
+#ocean{
+    position:relative;
+    left: 800px;
+    border:6px solid #92ccce;
+    width: 50%;
+  
+}
+
+#wall,#basic,#pink,#html{
+    position:relative;
+    right:;
+    border:6px solid #92ccce;
+    width: 30%;
+}
+
+
