@@ -1,10 +1,41 @@
-body {
+body{
+    font-family: sans-serif;
+}
+h2{
+    margin-left: 250px;
+    font-size:50px;
+    color: #445877;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    color:#31343d;
+}
+
+h4{
+    text-align: center;
+    font-size: 15px;
+    color: #31343d;
+}
+
+#word{
+    position: relative;
+    bottom: 110px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 1500px;
+    margin-right: 65px;
+    font-size: 35px;
+    color: #31343d;
+    text-align: start;
+    background-color: #92ccce;
     
 }
 
 Header{
     background-color: #31343d;
     text-align: start;
+    font-family:sans-serif;
     color: #92ccce;
 }
 
@@ -23,16 +54,10 @@ img {
     height: 450px;
 }
 
-.sub{
-    background-color: #92ccce;
-}
 
 p{
     text-align: end;
-}
-
-.surf,.led,.pastel,.cal,.run{
-    text-align: right;
+    margin-left:600px;
 }
 
 #ocean{
@@ -43,11 +68,30 @@ p{
   
 }
 
-#wall,#basic,#pink,#html{
-    position:relative;
-    right:;
+#wall{
+    display: block;
     border:6px solid #92ccce;
     width: 30%;
+    height: 150px;
+}
+ #basic{
+    display: block;
+    border:6px solid #92ccce;
+    width: 30%;
+    height: 150px;
 }
 
+#pink{
+    display: block;
+    border:6px solid #92ccce;
+    width: 30%;
+    height: 150px;
+}
 
+#html{
+    display: block;
+    right:500px;
+    border:6px solid #92ccce;
+    width: 30%;
+    height: 150px;
+}
